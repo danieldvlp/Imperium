@@ -6,7 +6,12 @@
     font-family: 'Imperium';
     src: url(Fontes/Divine\ And\ Earthly\ Imperium.otf) format('opentype');
     font-weight: normal;
+}
 
+@font-face {
+    font-family: 'Teko';
+    src: url(Fontes/Teko-Regular.ttf) format('opentype');
+    font-weight: normal;
 }
 
 * {
@@ -26,6 +31,7 @@ a.externo::after{
     --fonte-padrão: Arial, Verdana, Helvetica, Sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-imperium: 'Imperium', cursive;
+    --fonte-teko: 'Teko', cursiva;
 }
 
 body {
@@ -49,7 +55,7 @@ header {
 
 header > h1 {
     color: #e2e1e1;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-teko);
     font-size: 4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
 }
